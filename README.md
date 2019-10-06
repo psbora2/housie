@@ -14,10 +14,10 @@
 
 For setup you have to run these command
 
-### `git clone https://github.com/psbora2/housie.git`
-### `cd housie`
-### `npm install`
-### `npm start`
+	git clone https://github.com/psbora2/housie.git
+	cd housie
+	npm install
+	npm start
 
 
 Please visit my [profile](https://www.linkedin.com/in/pawansinghbora/)
