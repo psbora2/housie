@@ -6,6 +6,7 @@
 - Used [injectClient](https://github.com/psbora2/housie/blob/master/src/store/injectClient.js) for async request 
 - bootstrap 4 for styling
 - React-Router used for routing
+- Crud operation
 ## Game
 ![](https://raw.githubusercontent.com/psbora2/magazine/master/app/assets/images/housie_game.png)
 
