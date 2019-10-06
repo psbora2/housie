@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  background-color: #e9ecef!important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.box_number {
+  width:100%;
+  max-width:650px; 
+  min-height:80px; 
+  margin:0 auto; 
+  overflow:hidden;
+  }
+
+.box_number ul { padding:0px; margin:0px; font-weight:bold;}
+.box_number ul li { float:left; list-style:none; border:1px solid #999; text-align:center; padding:10px; width:35px; background-color:rgba(200,200,200,0.5);}
+.vertical-center {
+
+  display: flex;
+  align-items: center;
+}
+
+.user_logout {
+margin-top:-5px; 
+font-weight:bold;
+}
+
+.user_logout_name {
+  padding: 4px 4px 0 0;
+}
+
+.user_login {
+margin-top:5px; 
+font-weight:bold;
+}
+
+#user_numbers { margin:5px 0 0 0;}
+#user_numbers tr td {
+  font-weight:bold;
+  padding:1px;
+  width:30px;
+  text-align:center;
+  font-size:13px;
+  cursor: pointer;
+}
+#user_numbers tr .disable {
+  cursor:not-allowed; 
+  background-color:rgba(255,0,0,0.3);
+  background-image: url("./img/cross.png");
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.can_submit {
+  margin: 5px auto;
+}
