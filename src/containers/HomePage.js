@@ -17,7 +17,7 @@ class HomePage extends Component {
       query = `showGame`
     }
 
-    this.interval = setInterval(() => dispatch(loadGame(query)), 100000);
+    this.interval = setInterval(() => dispatch(loadGame(query)), 5000);
     dispatch(loadGame(query))
   }
 
