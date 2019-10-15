@@ -23,7 +23,7 @@ class NavBar extends React.Component {
               </li>
               {(isSignedIn) &&
                 <li className="nav-item">
-                  <a className="nav-link" href="/games">Games</a>
+                  <Link className="nav-link" to="/games">Games</Link>
                 </li>
               }
               {(isSignedIn) &&
