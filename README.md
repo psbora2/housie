@@ -8,7 +8,7 @@
 - React-Router used for routing
 - Crud operation
 ## Game
-![](https://raw.githubusercontent.com/psbora2/magazine/master/app/assets/images/housie_game.png)
+![](https://onlinepaytax.s3.ap-south-1.amazonaws.com/housie_game.png)
 
 ## set up 
 
